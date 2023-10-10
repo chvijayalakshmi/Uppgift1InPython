@@ -5,7 +5,6 @@ def generate_seq(length):
         sequence.append(random.randint(1,9))
     return sequence
 
-
 def display_seq(sequence):
     print("Här är sekvensen:")
     for item in sequence:
